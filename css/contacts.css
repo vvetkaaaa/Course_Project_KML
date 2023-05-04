@@ -1,0 +1,63 @@
+.top-back {
+  background-color: #151515;
+}
+.top-back .img {
+  width: 100%;
+  height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  opacity: 30%;
+}
+
+.main-container {
+  padding-top: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 0px;
+  padding-bottom: 100px;
+}
+.main-container .rectangle {
+  text-align: center;
+  background-color: rgb(187, 196, 132);
+  padding: 30px 30px;
+  max-width: 600px;
+  width: 100%;
+  height: 20vh;
+}
+.main-container .rectangle h4 {
+  opacity: 0.7;
+  font-weight: 600;
+}
+.main-container .rectangle p {
+  text-align: center;
+  padding: 10px 10px;
+}
+.main-container .rectangle .png {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+@media (max-width: 675px) {
+  .main-container .rectangle {
+    width: calc(100% - 100px);
+  }
+}
+
+.section-for-map {
+  padding-bottom: 50px;
+}
+.section-for-map .map-container {
+  text-align: center;
+}
+.section-for-map .map-container h2 {
+  padding-bottom: 50px;
+}
+
+.map {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
