@@ -1,4 +1,4 @@
-const requestURL = "../xml/info.xml"; 
+const requestURL = "info.xml"; 
 
 function Open(){
 const xhr = new XMLHttpRequest(); 
