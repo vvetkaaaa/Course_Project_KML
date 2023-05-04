@@ -10,7 +10,7 @@
             этого направления есть по всему миру. Эта технология позволяет творить, отходить от
             привычных канонов.
         </text>
-        <pica>/images/linework/img1.png</pica>
+        <pica>../images/linework/img1.png</pica>
         <picb>/images/linework/img10.png</picb>
         <picc>/images/linework/img11.png</picc>
         <picd>/images/linework/img2.png</picd>
