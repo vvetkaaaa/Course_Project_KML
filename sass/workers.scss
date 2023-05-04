@@ -1,0 +1,96 @@
+.choose{
+    padding: 100px;
+    .style-tattoo{
+        padding: 0 150px;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        padding-bottom: 100px;
+        .style-tattoo-btn{
+            font-size: 24px;
+            font-weight: 700;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            padding: 0;
+        }
+        @media (max-width: 660px){
+            .style-tattoo-btn{
+                font-size: 18px;
+            }
+        }
+        .style-tattoo-btn-active{
+            color: rgba(187, 196, 132, 1);
+        }
+        .style-tattoo-btn:hover{
+            color: rgba(187, 196, 132, 1);
+        }
+    }
+    @media (max-width: 1100px){
+        .style-tattoo{
+            padding: 0;
+            padding-bottom: 50px;
+            gap: 20px;
+        }
+    }
+    @media (max-width: 575px){
+        .style-tattoo{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+   
+    .gallery-container{
+        .article-worker{
+           .about-style{
+            padding-bottom: 50px;
+           }
+           @media (max-width: 660px){
+            .about-style{
+                font-size: 10px;
+            }
+        }
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 100px 40px;
+            padding-bottom: 50px;
+            .card{
+                text-align: center;
+                border: solid 1px rgba(187, 196, 132, 1);
+                .photo-card1,
+                .photo-card2,
+                .photo-card3,
+                .photo-card4,
+                .photo-card5,
+                .photo-card6,
+                .photo-card7,
+                .photo-card8,
+                .photo-card9,
+                .photo-card10,
+                .photo-card11,
+                .photo-card12
+                {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        @media (max-width: 1300px){
+            .gallery{
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
+        @media (max-width: 760px){
+            .gallery{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media (max-width: 575px){
+            .gallery{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+    }
+}
