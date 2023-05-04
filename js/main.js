@@ -1,3 +1,12 @@
+//MENU
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu__list');
+
+menuBtn.addEventListener('click', () =>{
+  menu.classList.toggle('menu__list-active');
+});
+
+//Link
 const buttons = document.querySelectorAll('.style-tattoo-btn');
 // цикл для каждой кнопки
 buttons.forEach(function(button) {
